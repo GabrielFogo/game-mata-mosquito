@@ -1,0 +1,56 @@
+html{
+  cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+body {
+  background-image: url(imagens/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mosquito1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.mosquito2 {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+}
+.mosquito3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.side1 {
+  transform: scaleX(1);
+}
+
+.side2 {
+  transform: scaleX(-1);
+}
+/* painel do game */
+
+.painel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 190px;
+  padding: 10px;
+  border-top: 1px solid #fff;
+  background-color: #fff;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+
+.vida {
+  font-size: 30px;
+}
+.cronometro {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* cor do select casos invalido ou valido */
+
