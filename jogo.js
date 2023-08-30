@@ -46,7 +46,7 @@ function randomPosition() {
     if (vidas > 3) {
       window.location.href = "fim_jogo.html";
     } else {
-      document.getElementById("v" + vidas).src = "imagens/coracao_vazio.png";
+      document.getElementById("v" + vidas).src = "img/coracao_vazio.png";
       vidas++;
     }
   }
@@ -58,7 +58,7 @@ function randomPosition() {
 
   let mosquito = document.createElement("img");
 
-  mosquito.src = "imagens/mosquito.png";
+  mosquito.src = "img/mosquito.png";
   mosquito.className = randomSize() + " " + randomSide();
   mosquito.style.left = positionX + "px";
   mosquito.style.top = positionY + "px";
